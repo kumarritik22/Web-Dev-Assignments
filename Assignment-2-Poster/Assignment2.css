@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#box{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    background-image: url(./virat\ kohli.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+h1{
+    color:rgb(237, 185, 55);
+    position: absolute;
+    bottom: 90px;
+    font-size: 50px;
+
+}
+
+h2{
+    color: rgb(237, 185, 55);
+    position: absolute;
+    bottom: 65px;
+    left: 55%;
+    font-size: 30px;
+}
+
+button{
+    position:absolute;
+    bottom: 0px;
+    left: 90%;
+    background-color: rgb(244, 71, 71);
+    color:wheat;
+    padding: 15px;
+    border: 2px solid rgb(163, 234, 198);
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
