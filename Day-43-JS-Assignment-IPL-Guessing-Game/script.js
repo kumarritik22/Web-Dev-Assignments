@@ -1,101 +1,81 @@
 let arr = [
     {
         Team: "RCB",
-        logo: "https://i.pinimg.com/736x/6d/32/88/6d32882b2d49540b4d0b365e9cba8bee.jpg",
-        teamPhoto: "https://i.pinimg.com/736x/47/ec/e3/47ece31b54690337fdaf3231f2b01b0f.jpg",
-        Primary: "Red",
-        Secondary: "Black",
-        FullName: "Royal Challengers Bengaluru",
+        logo: "https://pbs.twimg.com/profile_images/1770102655156682752/CFr2qRSJ_400x400.jpg",
+        teamPhoto: "https://www.livemint.com/lm-img/img/2025/06/03/1600x900/RCB_Ipl_2025_1748979890723_1748979891039.jpg",
+        Primary: "#ffd700",
         Captain: "Rajat Patidar",
-        Trophies: 1
+        Trophies: "🏆",
     },
     {
         Team: "CSK",
-        Primary: "Yellow",
-        logo: "https://i.pinimg.com/1200x/63/7b/3f/637b3fc6869b6a2ad3cc399717a763d9.jpg",
-        teamPhoto: "https://i.pinimg.com/736x/82/b1/ee/82b1eeda0dc847c1a12062c4b0a6b0ba.jpg",
-        Secondary: "Green",
-        FullName: "Chennai Super Kings",
+        logo: "https://pbs.twimg.com/profile_images/1559375475557818368/ub-ZdXDD_400x400.jpg",
+        teamPhoto: "https://pbs.twimg.com/media/G5yvg7gbMAAKP5l?format=jpg&name=4096x4096",
+        Primary: "Blue",
         Captain: "Ruturaj Gaikwad",
-        Trophies: 5
+        Trophies: "🏆🏆🏆🏆🏆",
     },
     {
         Team: "MI",
-        logo: "https://i.pinimg.com/1200x/28/09/a8/2809a841bb08827603ccac5c6aee8b33.jpg",
+        logo: "https://pbs.twimg.com/profile_images/1691063659022458881/yi5YRCv2_400x400.jpg",
         teamPhoto: "https://www.iwmbuzz.com/wp-content/uploads/2020/11/ipl-2020-take-a-look-at-the-success-of-mumbai-indians-so-far-2.jpg",
         Primary: "Blue",
-        Secondary: "Gold",
-        FullName: "Mumbai Indians",
         Captain: "Hardik Pandya",
-        Trophies: 5
+        Trophies: "🏆🏆🏆🏆🏆",
     },
     {
         Team: "KKR",
-        logo: "https://i.pinimg.com/736x/55/29/ec/5529ec8094b4744dd916f9f415aeee09.jpg",
+        logo: "https://pbs.twimg.com/profile_images/1734931620543832064/R92UP81c_400x400.jpg",
         teamPhoto: "https://thefederal.com/h-upload/2024/05/26/449528-kkr-champions.webp",
-        Primary: "Purple",
-        Secondary: "Gold",
-        FullName: "Kolkata Knight Riders",
+        Primary: "Gold",
         Captain: "Ajinkya Rahane",
-        Trophies: 2
+        Trophies: "🏆🏆🏆",
     },
     {
         Team: "GT",
-        logo: "https://i.pinimg.com/1200x/24/58/35/245835be9c23261523858a643af3aaf2.jpg",
+        logo: "https://pbs.twimg.com/profile_images/1926475537536454656/MWhuAVwE_400x400.jpg",
         teamPhoto: "https://images.tv9hindi.com/wp-content/uploads/2022/05/IPL-2022-Champions-Gujarat-titans.jpg",
-        Primary: "Grey",
-        Secondary: "Yellow",
-        FullName: "Gujrat Titans",
+        Primary: "Gold",
         Captain: "Shubman Gill",
-        Trophies: 1
+        Trophies: "🏆",
     },
     {
         Team: "RR",
-        logo: "https://i.pinimg.com/1200x/68/c5/d4/68c5d4e34c0a26a4a11ffd080839e8e7.jpg",
-        teamPhoto: "https://assets-webp.khelnow.com/d7293de2fa93b29528da214253f1d8d0/news/uploads/2024/05/Rajasthan-Royals-2008-1280x758.jpg.webp",
-        Primary: "Hotpink",
-        Secondary: "Blue",
-        FullName: "Rajasthan Royals",
+        logo: "https://pbs.twimg.com/profile_images/1647628957888708608/ZVPTc70P_400x400.jpg",
+        teamPhoto: "https://pbs.twimg.com/profile_banners/17082958/1763222479/1500x500",
+        Primary: "#7d7dcdff",
         Captain: "Sanju Samson",
-        Trophies: 1
+        Trophies: "🏆",
     },
     {
         Team: "SRH",
-        logo: "https://i.pinimg.com/1200x/6e/9d/25/6e9d252b1a8ec39b01a248f1f9bd8b57.jpg",
-        teamPhoto: "https://staticg.sportskeeda.com/editor/2023/05/c851f-16853630883769-1920.jpg",
-        Primary: "Orange",
-        Secondary: "Black",
-        FullName: "Sunrisers Hyderabad",
+        logo: "https://pbs.twimg.com/profile_images/1633354729790267393/V3D1yWeP_400x400.jpg",
+        teamPhoto: "https://pbs.twimg.com/profile_banners/989137039/1763210549/1500x500",
+        Primary: "#111",
         Captain: "Pat Cummins",
-        Trophies: 1
+        Trophies: "🏆",
     },
     {
         Team: "PBKS",
-        logo: "https://i.pinimg.com/736x/29/a3/22/29a3221c17e0e067e72034fa4f7b5e12.jpg",
-        teamPhoto: "https://i.pinimg.com/1200x/bb/5c/db/bb5cdbadf7038068ba1476906a48d1a1.jpg",
-        Primary: "Crimson",
-        Secondary: "Silver",
-        FullName: "Punjab Kings",
+        logo: "https://pbs.twimg.com/profile_images/1906969798598352896/VeOWPEIg_400x400.jpg",
+        teamPhoto: "https://pbs.twimg.com/profile_banners/30631766/1763264496/1500x500",
+        Primary: "Silver",
         Captain: "Shreyas Iyer",
         Trophies: 0
     },
     {
         Team: "DC",
-        logo: "https://i.pinimg.com/736x/56/76/91/567691824eb59180f762120fd34243d7.jpg",
-        teamPhoto: "https://i.pinimg.com/1200x/60/a5/c3/60a5c30f508b7071e79c014bd4e70a42.jpg",
-        Primary: "Lightblue",
-        Secondary: "Red",
-        FullName: "Delhi Capitals",
+        logo: "https://pbs.twimg.com/profile_images/1891001970175115264/v0pBPemd_400x400.jpg",
+        teamPhoto: "https://www.delhicapitals.in/static-assets/waf-images/89/bc/f0/16-9/Vgp7UznbBT.png?v=1.11&w=1200",
+        Primary: "Red",
         Captain: "Axar Patel",
         Trophies: 0
     },
     {
         Team: "LSG",
-        logo: "https://i.pinimg.com/1200x/63/c4/3c/63c43c59fff717f774b6b8ace666d96a.jpg",
-        teamPhoto: "https://i.pinimg.com/736x/d1/20/10/d120100040fe2c310acd8cc8b4eea200.jpg",
-        Primary: "Skyblue",
-        Secondary: "Grey",
-        FullName: "Lucknow Supergiants",
+        logo: "https://pbs.twimg.com/profile_images/1489489326924726277/2DvNsqgC_400x400.jpg",
+        teamPhoto: "https://statico.sportskeeda.com/editor/2024/11/c55f5-17327008137852-1920.jpg",
+        Primary: "Darkblue",
         Captain: "Rishabh Pant",
         Trophies: 0
     },
@@ -104,16 +84,23 @@ let arr = [
 let button = document.querySelector("button");
 let div = document.querySelector("div");
 let main = document.querySelector("main");
+let captain = document.querySelector("#captain");
+let trophies = document.querySelector("#trophies");
 
 button.addEventListener("click" , function() {
    let winner = arr[Math.floor(Math.random()*arr.length)];
 
    div.style.backgroundImage = `url(${winner.logo})`;
    div.style.backgroundPosition = "center";
-   div.style.backgroundSize = "contain";
+   div.style.backgroundSize = "cover";
    div.style.backgroundRepeat = "no-repeat";
+   main.style.textContent = `Captain: ${winner.Captain}`;
    main.style.backgroundImage = `url(${winner.teamPhoto})`;
    main.style.backgroundSize = "cover";
    main.style.backgroundPosition = "center";
+   captain.textContent = `Captain: ${winner.Captain}`;
+   trophies.textContent = `Trophies: ${winner.Trophies}`;
+   captain.style.color = winner.Primary;
+   trophies.style.color = winner.Primary;
 });
 

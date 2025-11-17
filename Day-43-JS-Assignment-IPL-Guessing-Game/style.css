@@ -7,47 +7,65 @@
 html , body {
     height: 100%;
     width: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 main{
     height: 100%;
     width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 20px;
-    background-color:;
+    transition: all 0.3s ease-out;
+    background-blend-mode: darken;
 }
 
 div {
     height: 300px;
     width: 250px;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    /* padding: 50px 40px; */
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
     border-radius: 20px;
-    border: 2px solid white;
-    /* font-size: 75px; */
-    /* color:aqua; */
+    border: 1px solid rgba(255,255,255,0.4);
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 25px rgba(0,0,0,0.4);
+    transition: all 0.3s ease-in; 
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 800;
+    color: #ffffff;
+    font-family: 'Bebas Neue', sans-serif;
+    text-shadow: 3px 3px 10px rgba(0,0,0,0.8);
 }
 
 button {
     font-size: 20px;
-    font-weight: 600;
-    padding: 5px 10px;
+    font-weight: Bold;
+    padding: 8px 20px;
     border-radius: 10px;
-    background-color: lightcoral;
+    background-color: #ff5714;
+    color: white;
+    border: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: 0.5s;
 }
+
+button:hover {
+    background-color: crimson;
+    cursor: pointer;
+}
+
 
 button:active {
     scale: 0.95;
-}
-
-h1 {
-    background-color: none;
-
 }
