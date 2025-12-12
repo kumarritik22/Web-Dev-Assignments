@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #111;
+
+}
+
+.top{
+    height: 90%;
+    width: 100%;
+}
+
+.top img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    background-size: contain;
+    background-position: center;
+}
+
+.icons{
+    height: 70px;
+    width: 70px;
+    position: absolute;
+    z-index: 1;
+    top: 5px;
+    padding: 10px 15px;
+    
+}
+
+.icons img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
+.icon{
+    margin-bottom: 20px;
+}

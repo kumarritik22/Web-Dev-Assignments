@@ -18,7 +18,19 @@ body{
     justify-content: center;
 }
 
-.my-input{
+.container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  overflow: auto;
+}
+
+.container::-webkit-scrollbar{
+    display:none;
+}
+
+.input{
   padding: 20px;
   border-radius: 5px;
   background-color: #111;
@@ -26,6 +38,11 @@ body{
   border: none;
   margin-bottom: 20px;
   outline: none;
+}
+
+.cards{
+  display: flex;
+  gap: 20px;
 }
 
 .card{
@@ -44,22 +61,22 @@ body{
     display: block;
 }
 
-.blurred-layer{
+ .blurred-layer{
     position: absolute;
     bottom: 0;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-position: bottom;
-    filter: blur(10px);
+    filter: blur(8px); 
     z-index: 1;
-    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1) rgba(0, 0, 0, 0));
+    mask-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
     mask-size: 100% 100%;
     mask-repeat: no-repeat;
 
     -webkit-mask-image: linear-gradient(
         to top,
-        rgba(0, 0, 0, 1)
+        rgba(0, 0, 0, 1),
         rgba(0, 0, 0, 0)
     );
     -webkit-mask-size: 100% 100%;
