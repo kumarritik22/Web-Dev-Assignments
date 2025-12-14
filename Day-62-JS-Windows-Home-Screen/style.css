@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html, body{
@@ -12,12 +13,10 @@ html, body{
 #main{
     height: 100%;
     width: 100%;
-    background-color: #111;
-
 }
 
-.top{
-    height: 90%;
+#main .top{
+    height: 91%;
     width: 100%;
 }
 
@@ -30,8 +29,8 @@ html, body{
 }
 
 .icons{
-    height: 70px;
-    width: 70px;
+    height: 80px;
+    width: 80px;
     position: absolute;
     z-index: 1;
     top: 5px;
@@ -42,11 +41,45 @@ html, body{
 .icons img{
     height: 100%;
     width: 100%;
-    border-radius: 50%;
     object-fit: cover;
-    
+}
+
+.icon p{
+    font-size: 15px;
+    color: #fff;
 }
 
 .icon{
     margin-bottom: 20px;
 }
+
+#main .bottom{
+    height: 9%;
+    width: 100%;
+    background-color: #1c1c1c;
+    border-top: 1px solid #535353;
+}
+
+.taskbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.logo img{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 70%;
+    width: 70%;
+}
+
+.logo input{
+    margin-top: 10px;
+    background-color: #3c3c3c;
+    padding: 8px 30px;
+    border-radius: 50px;
+    border: 1px solid #535353;
+}
+
