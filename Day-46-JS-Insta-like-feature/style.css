@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 350px;
+    background-color: #111;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.card div{
+    position: relative;
+    overflow: hidden;
+}
+
+.card img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.card h2{
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.card i{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    background-image: url(https://repository-images.githubusercontent.com/746244601/9231059e-feb7-4f4a-88ae-9d20a15ddc7b);
+    background-size: cover;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+    font-size: 100px;
+    transition: all cubic-bezier(.65,1,.77,1.44) 0.4s;
+}
